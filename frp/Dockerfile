@@ -3,7 +3,7 @@ FROM alpine:3.7
 LABEL maintainer="hpeng526 <hpeng526@gmail.com>"
 
 ENV TIMEZONE    Asia/Shanghai
-ENV VERSION     0.16.0
+ENV VERSION     0.21.0
 ENV DOWNLOAD    https://github.com/fatedier/frp/releases/download/v${VERSION}/frp_${VERSION}_linux_amd64.tar.gz
 
 RUN apk upgrade --update \

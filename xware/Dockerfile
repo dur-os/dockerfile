@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM ubuntu:16.04
 
 RUN apt-get update && apt-get install -y libc6-i386 lib32z1
 
